@@ -113,6 +113,8 @@ model = UniFlowMatchConfidence.from_pretrained("infinity1096/UFM-Base")
 from uniflowmatch.models.ufm import UniFlowMatchClassificationRefinement
 model = UniFlowMatchClassificationRefinement.from_pretrained("infinity1096/UFM-Refine")
 
+# High resolution model can be loaded via "infinity1096/UFM-Base-980" and "infinity1096/UFM-Refine-980"
+
 # Set the model to evaluation mode
 model.eval()
 
