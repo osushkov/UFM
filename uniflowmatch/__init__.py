@@ -3,7 +3,7 @@
 Expose main model classes at the package level for convenience.
 """
 
-from .models.ufm import (
+from uniflowmatch.models.ufm import (
     UniFlowMatch,
     UniFlowMatchClassificationRefinement,
     UniFlowMatchConfidence,
