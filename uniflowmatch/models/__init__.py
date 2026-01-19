@@ -1,13 +1,13 @@
 """Models subpackage for `uniflowmatch`."""
 
-from .base import (
+from uniflowmatch.models.base import (
     UFMClassificationRefinementOutput,
     UFMFlowFieldOutput,
     UFMMaskFieldOutput,
     UFMOutputInterface,
     UniFlowMatchModelsBase,
 )
-from .ufm import (
+from uniflowmatch.models.ufm import (
     UniFlowMatch,
     UniFlowMatchClassificationRefinement,
     UniFlowMatchConfidence,

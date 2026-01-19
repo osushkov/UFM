@@ -1,12 +1,12 @@
 """Utilities subpackage for `uniflowmatch`."""
 
-from .flow_resizing import (
+from uniflowmatch.utils.flow_resizing import (
     AutomaticShapeSelection,
     ResizeToFixedManipulation,
     unmap_predicted_channels,
     unmap_predicted_flow,
 )
-from .geometry import (
+from uniflowmatch.utils.geometry import (
     depthmap_to_camera_frame,
     depthmap_to_world_frame,
     xy_grid,
@@ -30,7 +30,7 @@ from .geometry import (
     rotate_vector_with_quaternion,
     quaternion_to_rot_matrix,
 )
-from .viz import warp_image_with_flow
+from uniflowmatch.utils.viz import warp_image_with_flow
 
 __all__ = [
     "AutomaticShapeSelection",
